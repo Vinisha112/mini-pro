@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    text-align: center;
+    background-color: bisque;
+    font-style: italic;
+}
+.container{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav,#credits{
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0.8;
+}
+form{
+  position: relative;
+  top: 50%;
+  left: 30%;
+  background-color: white;
+  width: 500px;
+  height: 350px;
+  border-radius: 20px;
+}
+label, input, button{
+  font-size: 20px;
+  text-align: center;
+}
+input, textarea{
+  width: 330px;
+  background-color: #ecf0f3;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button{
+  margin-top: 50px;
+  width: 330px;
+  background: #1da1f2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow:  6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+p{
+  padding-top: 100px;
+  font-size: 2.9em;
+}
+.change{
+  color: aqua;
+}
+.change:after{
+  content: "";
+  animation: change 10s linear infinite;
+}
+@keyframes change{
+  0%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color:rosybrown;
+  }
+  10%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: salmon;
+  }
+  20%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: red;
+  }
+  30%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: plum;
+  }
+  40%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: brown;
+  }
+  50%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: palevioletred;
+  }
+  60%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: purple;
+  }
+  70%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: blueviolet;
+  }
+  80%{
+    content: "Do You Wish To Explore Valley Of Flowers ";
+    color: black;
+  }
+
+}
+
+
